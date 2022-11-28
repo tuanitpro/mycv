@@ -2,13 +2,15 @@
 
 Using docker
 
-    Dev: `docker-compose up`
-
     docker pull tuanitpro/mycv
 
     docker run -d -p 8000:80 tuanitpro/mycv
 
-Dọcker build
+Develop
+
+    docker-compose up
+
+Build
     
     docker build . -t tuanitpro/mycv
 
